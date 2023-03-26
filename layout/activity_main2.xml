@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgg"
+    android:orientation="vertical"
+    tools:context=".Main2Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnExit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="16dp"
+            android:background="#00FFFFFF"
+            android:drawableBottom="@drawable/exit"
+            android:scaleX="1.1"
+            android:scaleY="1.1"
+            tools:ignore="MissingConstraints,SpeakableTextPresentCheck" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_marginTop="520dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/imageButton21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:scaleType="fitStart"
+            android:scaleX="1"
+            android:scaleY="1"
+            android:background="#00FFFFFF"
+            android:src="@drawable/juanzhoubtn" />
+
+        <ImageButton
+            android:id="@+id/imageButton25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#00FFFFFF"
+            android:scaleType="fitStart"
+            android:scaleX="1"
+            android:scaleY="1"
+            android:src="@drawable/juanzhoubtn" />
+
+        <ImageButton
+            android:id="@+id/imageButton26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#00FFFFFF"
+            android:scaleType="fitStart"
+            android:scaleX="1"
+            android:scaleY="1"
+            android:src="@drawable/juanzhoubtn2" />
+
+        <ImageButton
+            android:id="@+id/imageButton27"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#00FFFFFF"
+            android:scaleType="fitStart"
+            android:scaleX="1"
+            android:scaleY="1"
+            android:src="@drawable/juanzhoubtn2" />
+
+    </LinearLayout>
+
+</LinearLayout>

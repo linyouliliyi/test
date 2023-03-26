@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tang">
+
+    <HorizontalScrollView
+        android:layout_width="382dp"
+        android:layout_height="449dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="4dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/button12"
+                android:layout_width="311dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="10dp"
+                android:text="Button" />
+
+            <Button
+                android:id="@+id/button13"
+                android:layout_width="311dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:text="Button" />
+
+            <Button
+                android:id="@+id/button14"
+                android:layout_width="311dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Button" />
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NewmapActivity">
+
+  <HorizontalScrollView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      tools:ignore="SpeakableTextPresentCheck">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+      <ImageView
+          android:id="@+id/newmap"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:scaleType="fitStart"
+          android:scaleX="1"
+          android:scaleY="1"
+          android:src="@drawable/newmap"
+          android:translationX="-100dp" />
+    </LinearLayout>
+  </HorizontalScrollView>
+
+  <ImageButton
+      android:id="@+id/openbtnNew"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentStart="true"
+      android:layout_alignParentTop="true"
+      android:layout_marginStart="23dp"
+      android:layout_marginTop="114dp"
+      android:background="#00FFFFFF"
+      android:scaleX="0.8"
+      android:scaleY="0.8"
+      app:srcCompat="@drawable/biaozhi"
+      tools:ignore="SpeakableTextPresentCheck" />
+
+  <ImageView
+      android:id="@+id/sushi2"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:src="@drawable/sushi"
+      android:translationY="35dp" />
+
+  <Button
+      android:id="@+id/btnExit2"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentEnd="true"
+      android:layout_marginTop="16dp"
+      android:layout_marginEnd="5dp"
+      android:background="#00FFFFFF"
+      android:drawableBottom="@drawable/exit"
+      android:scaleX="1.1"
+      android:scaleY="1.1"
+      android:translationX="20dp"
+      android:translationY="15dp"
+      tools:ignore="MissingConstraints,SpeakableTextPresentCheck" />
+
+</RelativeLayout>

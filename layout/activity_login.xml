@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/back">
+    <!-- padding 内边距   layout_margin 外边距
+        android:layout_alignParentTop 布局的位置是否处于顶部 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#0003DAC6"
+            app:srcCompat="@drawable/choosee" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/login_div"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dip"
+        android:layout_margin="15dip"
+        android:background="@drawable/background_login_div" >
+        <!-- 账号 -->
+        <TextView
+            android:id="@+id/login_user_input"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:text="请输入您的称呼："
+            android:textColor="#6A4330"
+            android:textSize="20sp"
+            android:layout_marginTop="5dp"
+            />
+
+        <EditText
+            android:id="@+id/username_edit"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/login_user_input"
+            android:hint="在这里输入您的称呼~"
+            android:inputType="text"
+            android:minHeight="48dp"
+            android:singleLine="true" />
+        <!-- 密码 text -->
+        <TextView
+            android:id="@+id/login_password_input"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/username_edit"
+            android:layout_marginTop="3dp"
+            />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="171dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/username_edit"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="90dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginEnd="87dp"
+            android:textColor="#745245"
+            android:textSize="20sp"
+            android:background="#FFFFFF"
+
+            android:backgroundTint="#E1C496"
+            android:text="确认" />
+
+
+        <!-- 登录button -->
+    </RelativeLayout>
+
+
+</LinearLayout>
